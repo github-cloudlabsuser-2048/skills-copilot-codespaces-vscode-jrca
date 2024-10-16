@@ -37,7 +37,7 @@ class Program
                     default:
                         Console.WriteLine("Invalid choice. Try again.");
                         break;
-                }
+                } 
 
                 health -= 10;
                 if (health <= 0)
