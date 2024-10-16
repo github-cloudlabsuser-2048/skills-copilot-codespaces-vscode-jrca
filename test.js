@@ -36,11 +36,11 @@ class Calculator {
                 throw new Error("Invalid operation.");
         }
     }
-}
+}  
 
 // Example usage:
 const calculator = new Calculator();
 console.log(calculator.calculate('add', 5, 3));       // Output: 8
 console.log(calculator.calculate('subtract', 5, 3));  // Output: 2
 console.log(calculator.calculate('multiply', 5, 3));  // Output: 15
-console.log(calculator.calculate('divide', 6, 3));    // Output: 2
+console.log(calculator.calculate('divide', 6, 3));    // Output: 2 
